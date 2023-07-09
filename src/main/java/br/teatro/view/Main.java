@@ -1,4 +1,4 @@
-rpackage br.teatro.view;
+package br.teatro.view;
 
 import br.teatro.model.Consumidor;
 import br.teatro.model.Poltrona;
