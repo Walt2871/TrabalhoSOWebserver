@@ -20,7 +20,7 @@ public class Main {
     public static String lugares = "";
 
     public static ThreadsDeConexao t = new ThreadsDeConexao();
-    public static File log = new File("log", "log.txt");
+    public static File log = new File("log/", "log.txt");
 
     public static ArrayList<String> bufferLog = new ArrayList<>();
     public static void main(String[] args) throws IOException{
