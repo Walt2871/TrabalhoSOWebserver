@@ -1,4 +1,4 @@
-package br.teatro.view;
+rpackage br.teatro.view;
 
 import br.teatro.model.Consumidor;
 import br.teatro.model.Poltrona;
@@ -20,7 +20,7 @@ public class Main {
     public static String lugares = "";
 
     public static ThreadsDeConexao t = new ThreadsDeConexao();
-    public static File log = new File("/trabalho/log", "log.txt");
+    public static File log = new File("/teatro/TrabalhoSOWebserver/log", "log.txt");
 
     public static ArrayList<String> bufferLog = new ArrayList<>();
     public static void main(String[] args) throws IOException{
